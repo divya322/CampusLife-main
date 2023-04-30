@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PageFrame.BusDetails">
+  <grid id="27dc6" binding="panel1" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16432034"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="54567" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15164748"/>
+          <font size="20"/>
+          <text value="←"/>
+        </properties>
+      </component>
+      <component id="901d3" class="javax.swing.JLabel" binding="label1">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Book Antiqua" size="20"/>
+          <foreground color="-1"/>
+          <text value="Bus Route Details"/>
+        </properties>
+      </component>
+      <scrollpane id="ae71b">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2f795" class="javax.swing.JLabel" binding="MessageBox">
+            <constraints/>
+            <properties>
+              <font name="Book Antiqua" size="20"/>
+              <foreground color="-2821644"/>
+              <horizontalAlignment value="0"/>
+              <icon value="PageFrame/BusRoute.png"/>
+              <text value=""/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="1b6bd" class="javax.swing.JButton" binding="downloadButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15164748"/>
+          <font name="Book Antiqua" size="16"/>
+          <text value="Download"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
